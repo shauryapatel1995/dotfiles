@@ -347,8 +347,7 @@ require'nvim-treesitter.configs'.setup {
   },
 }
 EOF
-
-if $TERM == 'alacritty' || $COLORTERM == 'truecolor'
+if $TERM == 'alacritty' || $COLORTERM == 'truecolor' || $WT_SESSION != ''
   set termguicolors
 endif
 
