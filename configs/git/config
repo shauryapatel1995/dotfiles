@@ -28,8 +28,8 @@
 	features = line-numbers decorations
 
 [user]
-	name = Jade Lovelace
-	email = software@lfcode.ca
+    email = shauryakamle@umass.edu
+    name = shaurya
 
 [pull]
 	ff = only
